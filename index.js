@@ -11,7 +11,6 @@ server.listen(PORT, () =>{
     console.log("server...she listening...")
 })
 
-
 //an endpoint to get /nelly 
 server.get("/samekh", (req, res) =>{
     res.send("<h1> hi i'm samekh! </h1>"
