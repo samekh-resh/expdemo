@@ -1,7 +1,10 @@
 const express = require("express")
-
+var cors = require('cors')
 const server = express() // this server cannot hear a single thing
 
+
+//tell my server to let requests from 
+server.use(cors())
 //the middleware
 server.use(express.json())
 
